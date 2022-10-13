@@ -18,8 +18,10 @@ artifactsDir: output
 
 PATH:
   - .
+  - library\LoginExchange
 PYTHONPATH:
   - .
+  - library\LoginExchange
 
 ignoreFiles:
   - .gitignore
