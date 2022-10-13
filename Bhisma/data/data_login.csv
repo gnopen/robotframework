@@ -1,0 +1,8 @@
+No,DESCRIPTION,EMAIL,PASSWORD,TAGS
+1,Invalid Username  ,invalid,AMALIA100KG7-03,Full Testing
+2,Invalid Password,admin@gmail.com,invalid,Full Testing
+3,Invalid Username And Password,invalid,whatever,Full Testing
+4,Long Email,adminkentang12314141414adminkentang12314141414adminkentang12314141414adminkentang12314141414adminkentang12314141414adminkentang12314141414@gmail.com,password24,Full Testing
+5,Empty Username,,password24,Full Testing
+6,Empty Username And Password,,,Full Testing
+7,Empty Password,adminkentang@gmail.com,,Full Testing
