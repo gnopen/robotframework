@@ -27,3 +27,12 @@ Password Alert
     ${passwordalert}  Get Text   //p[@id='password-alert']
 
 
+Login Front End
+    Set Browser Implicit Wait     ${DELAY}
+    Click Element If Visible    //a[contains(text(),"Masuk / Daftar")]
+    Sleep     ${DELAY}
+    Input Text    //*[@name='input-email']    ${EMAIL_USER}
+    Input Text    //*[@name='input-password']  ${PASSWORD_USER}
+    Click Element    //button[@id='login-button']
+    Screenshot
+    Sleep     ${DELAY}
